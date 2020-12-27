@@ -1,0 +1,64 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	vertical-align: middle;
+	background-image: url("images.jpg");
+
+}
+
+.A {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	margin: 10vh;
+	border: 1px solid black; 
+	text-align: center;
+	background:linear-gradient(
+		32deg,
+		rgba(165, 4, 240, 1) 0%,
+		rgba(45, 253, 237, 1) 100%
+	  );
+	transition: width 1s;
+}
+.A:hover {
+	width:200px;
+}
+.B {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	margin: 10vh;
+	border: 1px solid black; 
+	text-align: center;
+	background:linear-gradient(
+		32deg,
+		rgb(165, 4, 240, 1) 0%,
+		rgba(45, 253, 237, 1) 100%
+	  );
+	transition: width 2s;
+}
+.B:hover {
+	width:250px;
+}
+.F {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	margin: 10vh;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	background:linear-gradient(
+		32deg,
+		rgba(165, 4, 240, 1) 0%,
+		rgba(45, 253, 237, 1) 100%
+	  );
+	transition: width 1s;
+}
+.F:hover {
+	width:200px;
+}
