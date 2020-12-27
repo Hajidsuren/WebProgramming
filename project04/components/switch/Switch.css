@@ -1,0 +1,24 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.con {
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 40px;
+  top: 100px;
+  padding:8px;
+  background-color: #70aad1;
+  border-color: rgb(32, 114, 221);
+  cursor: pointer;
+}
