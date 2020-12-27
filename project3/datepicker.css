@@ -1,0 +1,55 @@
+body{
+  background-image: url("snow.jpg");
+}
+h1 {
+  color:darkblue;
+  text-align: center;
+}
+table {
+  background-color: white;
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  border: solid black 1px;
+  border-spacing: 0px;
+}
+.month-back {
+  cursor: pointer;
+}
+.month-forward {
+  cursor: pointer;
+}
+.aa {
+  background: linear-gradient(to left,maroon,red, maroon);
+  color: white;
+  font-size: 25px;
+}
+.dd {
+  font-weight: 800;
+  font-size: 19px;
+}
+tbody td {
+  border: solid lightgrey 1px;
+  padding:8px;
+  align-items: center;
+  align-content: center;
+}
+.selectable-day:hover {
+  background-color: rgb(3, 56, 110);
+  color: white;
+  cursor: pointer;
+}
+td:first-child {
+  color: red;
+}
+td:last-child {
+  color: red;
+}
+.dimmed {
+  opacity:0.4;
+}
+.active {
+  color: white;
+  background-color: rgb(3, 56, 110);
+}
